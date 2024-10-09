@@ -31,8 +31,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-tomh131-djangoblog-v56fnt381u9.ws-eu116.gitpod.io',
-    '.herokuapp.com'
+    '.herokuapp.com',
+    '8000-tomh131-djangoblog-v56fnt381u9.ws-eu116.gitpod.io'
 ]
 
 # Application definition
@@ -94,7 +94,8 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net/",
-    "https://*.herokuapp.com"
+    "https://*.herokuapp.com",
+    'https://8000-tomh131-djangoblog-v56fnt381u9.ws-eu116.gitpod.io'
 ]
 
 # Password validation
